@@ -1,6 +1,11 @@
 .App{
-
-  background: rgb(0,0,0);
   background: linear-gradient(0deg, rgba(0,0,0,0.8148760330578513) 0%, rgba(121,106,9,1) 35%, rgba(175,157,5,1) 52%, rgba(255,233,0,0.768595041322314) 100%),url("./componentes/imagenes/economia.jpeg");
   height: 100vh;
+}
+@media only scream and (max-width:490px){
+  .App{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+  }
 }

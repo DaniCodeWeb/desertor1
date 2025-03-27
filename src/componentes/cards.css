@@ -1,5 +1,5 @@
 .card:hover{
-    box-shadow: 5px 10px 20px 1px rgba(204, 198, 198, 0.8)!important;
+    box-shadow: 5px 10px 20px 5px rgba(204, 198, 198, 0.8)!important;
     transition: all 0.5s linear;
 }
 .card-body{
